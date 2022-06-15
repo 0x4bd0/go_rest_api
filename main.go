@@ -24,6 +24,9 @@ type Person struct {
 	Team	int `json:"team"`
 }
 
-main() {
+func main() {
+
+	router := gin.Default()
+	router.run("localhost:8088")
 
 }
